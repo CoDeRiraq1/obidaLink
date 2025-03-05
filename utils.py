@@ -16,3 +16,4 @@ async def is_member(update: Update, user_id: int) -> bool:
 def generate_referral_link(user_id: int, bot_username: str) -> str:
     """توليد رابط الإحالة"""
     return f"https://t.me/{bot_username}?start={user_id}"
+#حقوق أبو عبيدة 
