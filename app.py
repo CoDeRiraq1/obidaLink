@@ -1,3 +1,4 @@
+from python import telegram bot
 from telegram.ext import Application
 from config import TOKEN
 from handlers.user_handlers import get_user_handlers
